@@ -108,6 +108,10 @@ body {
 	object-fit: cover;
 }
 
+.retseptid-pealkiri {
+	display: none;
+}
+
 .nupud {
 	display: flex;
 	justify-content: space-between;
@@ -211,11 +215,26 @@ body {
 }
 
 @media only screen and (max-width: 960px) {
+	.pealkiri {
+		font-size: 230%;
+	}
+	.alapealkiri {
+		font-size: 80%;
+		margin-top: -20px;
+	}
+	.lingid {
+		font-size: 80%;
+	}
 	.joon {
 		display: flex;
 		justify-content: center;
 		width: 50%;
 		border-top: 3px solid black;
+	}
+	.retseptid-pealkiri {
+		display: flex;
+		font-size: 175%;
+		margin-left: 30px;
 	}
 	.nupud {
 		display: table;
