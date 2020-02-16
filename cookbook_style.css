@@ -215,17 +215,33 @@ body {
 }
 
 @media only screen and (max-width: 412px) {
+	.nupp {
+		height: 250px;
+		width: 250px;
+	}
 	.eesti-pilt {
-		height: 200px;
-		width: 200px;
+		height: 250px;
+		width: 250px;
+	}
+	.eesti-tekst {
+		font-size: 75%;
+		left: 50px;
 	}
 	.aasia-pilt {
-		height: 200px;
-		width: 200px;
+		height: 250px;
+		width: 250px;
+	}
+	.aasia-tekst {
+		font-size: 75%;
+		left: 48px;
 	}
 	.itaalia-pilt {
-		height: 200px;
-		width: 200px;
+		height: 250px;
+		width: 250px;
+	}
+	.itaalia-tekst {
+		font-size: 75%;
+		left: 42px;
 	}
 }
 
