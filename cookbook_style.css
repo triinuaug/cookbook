@@ -214,6 +214,21 @@ body {
 	transform: scale(1.1);
 }
 
+@media only screen and (max-width: 412px) {
+	.eesti-pilt {
+		height: 200px;
+		width: 200px;
+	}
+	.aasia-pilt {
+		height: 200px;
+		width: 200px;
+	}
+	.itaalia-pilt {
+		height: 200px;
+		width: 200px;
+	}
+}
+
 @media only screen and (max-width: 960px) {
 	.pealkiri {
 		font-size: 230%;
